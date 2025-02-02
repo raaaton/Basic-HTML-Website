@@ -1,0 +1,152 @@
+body {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: start;
+}
+
+.logo img {
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.logo h3 {
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    grid-gap: 0px;
+    margin-top: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-element-container {
+    display: block;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+#work-experience {
+    border-left: none !important;
+    border-bottom: 2px solid black !important;
+}
+
+.part-h2, .part-h4, .part-p {
+    margin-left: 14px;
+}
+
+.part-p {
+    max-width: 250px;
+}
+
+.part-p a {
+    text-decoration: none;
+}
+
+#projects div {
+    border-bottom: 2px solid black;
+}
+
+#product-upcoming-page {
+    border: none !important;
+    margin-bottom: 75px;
+}
+
+.no-left-border {
+    border-left: none !important;
+}
+
+.course-took-li {
+    margin-bottom: 8px;
+}
+
+#review-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.review {
+    border: 2px solid black;
+    border-radius: 25px;
+    max-width: 225px;
+    margin: 0 10px;
+    padding: 8px 0;
+}
+
+.review p {
+    margin-left: 15px;
+}
+
+.teacher {
+    color: grey;
+}
+
+#reviews-h2 {
+    display: block;
+    width: 308px;
+    margin: 25px auto;
+    transform: translateX(-75%);
+}
+
+.footer-p {
+    display: block;
+    color: grey;
+    font-size: 14px;
+    margin: 0 auto;   
+    line-height: 1.5;
+    max-width: 700px; 
+    text-align: center;
+}
+
+#copyright {
+    display: block;
+    margin: 0 auto 10px;
+    width: 235px;
+}
