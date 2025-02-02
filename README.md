@@ -4,3 +4,4 @@
 Currently working on the responsive and on the different pages...
 
 ##### Here's the roadmap.sh 1st exercise link: https://roadmap.sh/projects/basic-html-website
+##### Here's the roadmap.sh 2nd exercise link: https://roadmap.sh/projects/portfolio-website
